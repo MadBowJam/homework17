@@ -33,7 +33,7 @@ console.log('Task 4:', myTest += myNum,
 //Task 5
 const myPi = Math.PI;
 let myRound = Math.floor(89.279),
-    myRandom = Math.floor(Math.random() * 11);
+    myRandom = Math.round(Math.random() * 11);
     myPow = Math.pow(3, 5);
 console.log('Task 5:', myPi, myRound, myRandom, myPow);
 
