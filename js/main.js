@@ -1,20 +1,20 @@
 //Task 1
-let myNum = 10,
+var myNum = 10,
     myStr = 'строка',
     myBool = true;
-let myArr = [1,2,3,4,5];
-let myObj = {
+var myArr = [1,2,3,4,5];
+var myObj = {
       first: 'First Name',
       last: 'Last Name',
     };
 console.log('Task 1:', myNum, myStr, myBool, myArr, myObj);
 
 //Task 2
-let decimal2 = myNum.toFixed(2);
+var decimal2 = myNum.toFixed(2);
 console.log('Task 2:', decimal2);
 
 //Task 3
-let i = 0;
+var i = 0;
 ++i;
 i++;
 console.log('Task 3.0:', i);
@@ -23,7 +23,7 @@ i--;
 console.log('Task 3.1:', i);
 
 //Task 4
-let myTest = 20;
+var myTest = 20;
 console.log('Task 4:', myTest += myNum,
                        myTest -= myNum,
                        myTest *= myNum,
@@ -31,25 +31,25 @@ console.log('Task 4:', myTest += myNum,
                        myTest %= myNum);
 
 //Task 5
-const myPi = Math.PI;
-let myRound = Math.floor(89.279),
+var myPi = Math.PI;
+var myRound = Math.floor(89.279),
     myRandom = Math.round(Math.random() * 11);
     myPow = Math.pow(3, 5);
 console.log('Task 5:', myPi, myRound, myRandom, myPow);
 
 //Task 6
-let strObj = {
+var strObj = {
   str: "Мама мыла раму, рама мыла маму",
 };
 strObj.length = strObj.str.length;
 console.log('Task 6:', strObj);
 
 //Task 7
-let isRamaPos = strObj.str.includes('рама');
+var isRamaPos = strObj.str.includes('рама');
 console.log('Task 7:', isRamaPos);
 
 //Task 8
-let strReplace = strObj.str.replace('мыла', 'моет')
+var strReplace = strObj.str.replace('мыла', 'моет')
                            .replace('рама', 'Рама')
                            .replace('мыла', 'держит');
 console.log('Task 8:', strReplace);
