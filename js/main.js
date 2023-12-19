@@ -45,8 +45,8 @@ strObj.length = strObj.str.length;
 console.log('Task 6:', strObj);
 
 //Task 7
-// var isRamaPos = strObj.str.includes('рама');
-var isRamaPos = strObj.str.indexOf('рама');
+var isRamaPos = strObj.str.includes('рама');
+// var isRamaPos = strObj.str.indexOf('рама');
 console.log('Task 7:', isRamaPos);
 
 //Task 8
