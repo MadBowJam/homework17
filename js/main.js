@@ -32,8 +32,8 @@ console.log('Task 4:', myTest += myNum,
 
 //Task 5
 var myPi = Math.PI;
-var myRound = Math.floor(89.279),
-    myRandom = Math.round(Math.random() * 11);
+var myRound = Math.round(89.279),
+    myRandom = Math.random() * 10,
     myPow = Math.pow(3, 5);
 console.log('Task 5:', myPi, myRound, myRandom, myPow);
 
@@ -45,7 +45,8 @@ strObj.length = strObj.str.length;
 console.log('Task 6:', strObj);
 
 //Task 7
-var isRamaPos = strObj.str.includes('рама');
+// var isRamaPos = strObj.str.includes('рама');
+var isRamaPos = strObj.str.indexOf('рама');
 console.log('Task 7:', isRamaPos);
 
 //Task 8
