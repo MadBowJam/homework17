@@ -39,7 +39,7 @@ console.log('Task 5:', myPi, myRound, myRandom, myPow);
 
 //Task 6
 let strObj = {
-  str: "Мама мила раму, рама мила маму",
+  str: "Мама мыла раму, рама мыла маму",
 };
 strObj.length = strObj.str.length;
 console.log('Task 6:', strObj);
@@ -49,8 +49,9 @@ let isRamaPos = strObj.str.includes('рама');
 console.log('Task 7:', isRamaPos);
 
 //Task 8
-strObj.str = 'Мама моет раму, Рама держит маму';
-let strReplace = strObj.str;
+let strReplace = strObj.str.replace('мыла', 'моет')
+                           .replace('рама', 'Рама')
+                           .replace('мыла', 'держит');
 console.log('Task 8:', strReplace);
 
 //Task 9
